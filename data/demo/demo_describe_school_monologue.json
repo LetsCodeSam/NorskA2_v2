@@ -1,0 +1,39 @@
+{
+  "title": "Skole",
+  "meta": { "cefr": "A2", "topic": "school", "tags": ["skole", "hverdag", "utdanning"] },
+  "blocks": [
+    { "kind": "heading", "text": "Om skolen" },
+    { "kind": "lines", "title": "Intro", "items": [
+      { "no":"Jeg går på en skole i byen.","pron":"jey går på en SKO-le i BY-en.","en":"I go to a school in the city." },
+      { "no":"Skolen har mange elever.","pron":"SKO-len har MAN-ge e-LE-ver.","en":"The school has many students." },
+      { "no":"Vi har mange fag.","pron":"vi har MAN-ge FAG.","en":"We have many subjects." },
+      { "no":"Læreren hjelper oss.","pron":"LÆ-re-ren JEL-per oss.","en":"The teacher helps us." }
+    ]},
+    { "kind": "qa_list", "title": "Spørsmål og svar", "items": [
+      { "noQ":"Hva liker du på skolen?","pronQ":"Hva LI-ker du på SKO-len?","enQ":"What do you like at school?","noA":"Jeg liker matte. Hva med deg?","pronA":"jey LI-ker MAT-te. Hva med deg?","enA":"I like math. What about you?" },
+      { "noQ":"Når starter skoledagen?","pronQ":"Når STAR-ter SKO-le-da-gen?","enQ":"When does the school day start?","noA":"Den starter klokka åtte.","pronA":"den STAR-ter KLOK-ka ÅT-te.","enA":"It starts at eight o’clock." },
+      { "noQ":"Hva spiser du i kantina?","pronQ":"Hva SPI-ser du i kan-TI-na?","enQ":"What do you eat in the cafeteria?","noA":"Jeg spiser brødskiver.","pronA":"jey SPI-ser BRØ-ski-ver.","enA":"I eat sandwiches." },
+      { "noQ":"Hvilket fag er vanskelig?","pronQ":"HVIL-ket fag er VANS-ke-lig?","enQ":"Which subject is difficult?","noA":"Norsk er vanskelig for meg. Og du?","pronA":"Norsk er VANS-ke-lig for meg. Og du?","enA":"Norwegian is difficult for me. And you?" },
+      { "noQ":"Hvordan går du til skolen?","pronQ":"HVOR-dan går du til SKO-len?","enQ":"How do you get to school?","noA":"Jeg går til fots.","pronA":"jey går til FOTS.","enA":"I go on foot." }
+    ]},
+    { "kind": "mono", "title": "Styrt monolog", "items": [
+      { "no":"Snakk om skolen din.","pron":"snakk om SKO-len din.","en":"Talk about your school.","model":[
+        { "no":"Jeg går på en stor skole.","pron":"jey går på en STOR SKO-le.","en":"I go to a big school." },
+        { "no":"Jeg har mange venner der.","pron":"jey har MAN-ge VEN-ner der.","en":"I have many friends there." },
+        { "no":"Vi starter dagen klokka åtte.","pron":"vi STAR-ter DA-gen KLOK-ka ÅT-te.","en":"We start the day at eight." },
+        { "no":"Jeg liker engelsk, men matte er vanskelig.","pron":"jey LI-ker ENG-elsk, men MAT-te er VANS-ke-lig.","en":"I like English, but math is difficult." },
+        { "no":"Lærerne er hyggelige.","pron":"LÆ-re-ne er HYG-ge-li-ge.","en":"The teachers are nice." },
+        { "no":"Vi spiser lunsj i kantina.","pron":"vi SPI-ser LUNSJ i kan-TI-na.","en":"We eat lunch in the cafeteria." },
+        { "no":"Etter skolen gjør jeg lekser.","pron":"ET-ter SKO-len gjør jey LEK-ser.","en":"After school I do homework." },
+        { "no":"Jeg liker best å være sammen med venner.","pron":"jey LI-ker best å VÆ-re SAM-men med VEN-ner.","en":"I like best to be with friends." }
+      ]}
+    ]},
+    { "kind": "verbs_table", "title": "Verb", "verbs": [
+      { "inf":"å lære","pres":"lærer","pret":"lærte","perf":"har lært","fut":"skal lære","notes":"-" },
+      { "inf":"å skrive","pres":"skriver","pret":"skrev","perf":"har skrevet","fut":"skal skrive","notes":"⚠ irregular" },
+      { "inf":"å lese","pres":"leser","pret":"leste","perf":"har lest","fut":"skal lese","notes":"-" },
+      { "inf":"å gå","pres":"går","pret":"gikk","perf":"har gått","fut":"skal gå","notes":"⚠ irregular" },
+      { "inf":"å spise","pres":"spiser","pret":"spiste","perf":"har spist","fut":"skal spise","notes":"-" }
+    ]}
+  ]
+}

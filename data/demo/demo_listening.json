@@ -1,0 +1,53 @@
+{
+  "type": "listening_clip",
+  "title": "Task E – Short audio: Morgenrutine",
+  "intro": { "no": "Du skal høre en kort tekst om en morgenrutine.", "pron": "Du skal høre en kort tekst om en morg-en-ru-tine.", "en": "You will hear a short text about a morning routine." },
+  "tips_student": [ { "no": "Lytt to ganger.", "pron": "Lytt to gang-er.", "en": "Listen twice." } ],
+  "tips_teacher": [ { "no": "Spill av i normal hastighet først.", "pron": "Spill av i nor-mal hast-ig-het først.", "en": "Play at normal speed first." } ],
+  "audio": {
+    "mode": "tts",
+    "src": "assets/audio/clip-1.mp3",
+    "speeds": [0.6, 0.8, 1.0, 1.08],
+    "topic": "morgen",
+    "cefr": "A2",
+    "script": [
+      { "no": "Jeg står opp klokka sju og lager kaffe.", "pron": "Jeg står opp klokka sju og la-ger kaf-fe.", "en": "I get up at seven and make coffee.", "t": 0.0 },
+      { "no": "Jeg spiser brødskiver med ost.", "pron": "Jeg spi-ser brød-ski-ver med ost.", "en": "I eat slices of bread with cheese.", "t": 4.0 },
+      { "no": "Etterpå går jeg til bussholdeplassen.", "pron": "Et-ter-på går jeg til buss-hol-de-plas-sen.", "en": "After that I walk to the bus stop.", "t": 8.0 }
+    ]
+  },
+  "pre_listen": [ { "no": "Hva gjør du om morgenen?", "pron": "Hva gjør du om mor-ge-nen?", "en": "What do you do in the morning?" } ],
+  "while_listen": {
+    "gist": [ {
+      "noQ": "Hva handler teksten om?",
+      "pronQ": "Hva hand-ler tekst-en om?",
+      "enQ": "What is the text about?",
+      "options": [
+        { "no": "En morgenrutine", "en": "A morning routine" },
+        { "no": "En fotballkamp", "en": "A football match" },
+        { "no": "En reise til Oslo", "en": "A trip to Oslo" }
+      ],
+      "answerIndex": 0
+    } ],
+    "detail": [ {
+      "noQ": "Hva spiser personen?",
+      "pronQ": "Hva spi-ser per-son-en?",
+      "enQ": "What does the person eat?",
+      "noA": "Han spiser brødskiver med ost.",
+      "pronA": "Han spi-ser brød-ski-ver med ost.",
+      "enA": "He eats bread with cheese."
+    } ],
+    "true_false": [ { "no": "Personen tar taxi til jobb.", "en": "The person takes a taxi to work.", "answer": false } ]
+  },
+  "post_listen": {
+    "dictation": [ { "no": "Jeg ____ opp klokka sju.", "pron": "Jeg ____ opp klok-ka sju.", "en": "I ____ up at seven.", "ans": "står" } ],
+    "shadowing": [ { "no": "Etterpå går jeg til bussholdeplassen.", "pron": "Et-ter-på går jeg til buss-hol-de-plas-sen.", "en": "After that I walk to the bus stop." } ],
+    "speak_back": [ { "noQ": "Hva gjør du om morgenen?", "pronQ": "Hva gjør du om mor-ge-nen?", "enQ": "What do you do in the morning?", "noA": "Jeg drikker te. Hva med deg?", "pronA": "Jeg drik-ker te. Hva med deg?", "enA": "I drink tea. What about you?" } ]
+  },
+  "vocab": [
+    { "no": "stå opp", "pron": "stå opp", "en": "get up" },
+    { "no": "brødskive", "pron": "brød-ski-ve", "en": "slice of bread" },
+    { "no": "bussholdeplass", "pron": "buss-hol-de-plass", "en": "bus stop" }
+  ],
+  "assessment": { "teacher_check": [ { "no": "Forstår eleven hovedinnholdet?", "en": "Does the student understand the main idea?" } ] }
+}

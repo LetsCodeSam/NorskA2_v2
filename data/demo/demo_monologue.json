@@ -1,0 +1,21 @@
+{
+"title": "Monolog – Favorittaktivitet (2–3 min)",
+"meta": { "topic": "hobby", "cefr": "A2" },
+"blocks": [
+{ "kind": "lines", "title": "Intro", "items": [
+{ "no": "Snakk om din favorittaktivitet.", "en": "Talk about your favourite activity." }
+]},
+{ "kind": "lines", "title": "Tips", "items": [
+{ "no": "Bruk presens.", "en": "Use present tense." },
+{ "no": "Bruk tidsuttrykk.", "en": "Use time expressions." }
+]},
+{ "kind": "qa_list", "title": "Spørsmål", "items": [
+{ "noQ": "Hva liker du å gjøre?", "enQ": "What do you like to do?" },
+{ "noQ": "Når gjør du det?", "enQ": "When do you do it?" }
+]},
+{ "kind": "lines", "title": "Modell (2–3 min)", "items": [
+{ "no": "Jeg trener fotball to ganger i uka.", "en": "I practice football twice a week." },
+{ "no": "Jeg møter venner etter trening.", "en": "I meet friends after practice." }
+]}
+]
+}

@@ -1,0 +1,7 @@
+{ "datasets": [
+{ "title": "Lytte: Morgenrutine", "path": "./data/demo/demo_listening.json" },
+{ "title": "Beskriv: I parken", "path": "./data/demo/demo_describe.json" },
+{ "title": "Monolog: Favoritt", "path": "./data/demo/demo_monologue.json" },
+{ "title": "Verb: Vanlige verb", "path": "./data/demo/demo_verbs.json" },
+{ "title": "Kombinert eksempel", "path": "./data/demo/demo_combo.json" }
+] }

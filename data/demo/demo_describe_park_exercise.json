@@ -1,0 +1,23 @@
+{
+  "title": "Describe – Park (Exercises)",
+  "meta": { "cefr": "A2", "topic": "park" },
+  "blocks": [
+    { "kind": "heading", "text": "Describe – Park (Exercises)" },
+    { "kind": "image", "src": "assets/describe/pic-park.png", "alt": "Park scene" },
+    { "kind": "mcq_list", "title": "Detaljer", "items": [
+      { "noQ": "Hvor mange barn ser du?", "options": [ {"no":"To"}, {"no":"Tre"}, {"no":"Fire"} ], "answerIndex": 0 }
+    ]},
+    { "kind": "tf_list", "title": "Sant/Usant", "items": [
+      { "no": "En mann går med en hund.", "en": "A man walks with a dog.", "answer": true },
+      { "no": "En kvinne løper med en katt.", "en": "A woman runs with a cat.", "answer": false }
+    ]},
+    { "kind": "fill_list", "title": "Verb Diktat", "items": [
+      { "no": "Barna ____ på gresset.", "pron": "Bar-na LE-ker på gres-set.", "en": "The children ____ on the grass.", "ans": "leker" },
+      { "no": "Han ____ med hunden.", "pron": "Han GÅR med hun-den.", "en": "He ____ with the dog.", "ans": "går" }
+    ]},
+    { "kind": "qa_list", "title": "Spørsmål (til slutt)", "items": [
+      { "noQ": "Hva liker du best å gjøre i parken?", "pronQ": "Hva li-ker du best å gjø-re i par-ken?", "enQ": "What do you like best to do in the park?",
+        "noA": "Jeg liker å spille fotball. Hva med deg?", "pronA": "Jeg li-ker å spil-le fot-ball. Hva med deg?", "enA": "I like to play football. What about you?" }
+    ]}
+  ]
+}

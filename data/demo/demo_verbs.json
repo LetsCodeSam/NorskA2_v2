@@ -1,0 +1,11 @@
+{
+"title": "Vanlige verb (A2)",
+"meta": { "topic": "verbs", "cefr": "A2" },
+"blocks": [
+{ "kind": "verbs_table", "title": "Verb", "verbs": [
+{ "inf": "å være", "pres": "er", "pret": "var", "perf": "har vært", "fut": "skal være", "notes": "irreg." },
+{ "inf": "å ha", "pres": "har", "pret": "hadde","perf": "har hatt", "fut": "skal ha", "notes": "irreg." },
+{ "inf": "å gå", "pres": "går", "pret": "gikk", "perf": "har gått", "fut": "skal gå" }
+]}
+]
+}

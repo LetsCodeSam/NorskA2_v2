@@ -1,0 +1,21 @@
+{
+  "title": "Irregular Verbs (A2)",
+  "meta": { "cefr": "A2", "topic": "verbs" },
+  "blocks": [
+    { "kind": "heading", "text": "Irregular Verbs" },
+    { "kind": "verbs_table", "title": "Verb", "verbs": [
+      { "inf": "å være",  "pres": "er",   "pret": "var",   "perf": "har vært",  "fut": "skal være" },
+      { "inf": "å gjøre",  "pres": "gjør", "pret": "gjorde","perf": "har gjort", "fut": "skal gjøre" },
+      { "inf": "å gå",    "pres": "går",  "pret": "gikk",  "perf": "har gått",  "fut": "skal gå" }
+    ]},
+    { "kind": "fill_list", "title": "Verb Diktat", "items": [
+      { "no": "Jeg ____ trøtt i dag.", "pron": "Jeg ER trøtt i dag.", "en": "I ____ tired today.", "ans": "er" },
+      { "no": "Hva ____ du i helga?", "pron": "Hva GJØR du i hel-ga?", "en": "What ____ you do this weekend?", "ans": "gjør" },
+      { "no": "I går ____ vi til byen.", "pron": "I går GIKK vi til by-en.", "en": "Yesterday we ____ to town.", "ans": "gikk" }
+    ]},
+    { "kind": "qa_list", "title": "Spørsmål (til slutt)", "items": [
+      { "noQ": "Hva gjør du etter skolen?", "pronQ": "Hva gjør du et-ter sko-len?", "enQ": "What do you do after school?",
+        "noA": "Jeg går hjem og gjør lekser. Hva med deg?", "pronA": "Jeg går hjem og gjør lek-ser. Hva med deg?", "enA": "I go home and do homework. What about you?" }
+    ]}
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "title": "17. mai feiring",
+  "meta": { "cefr": "A2", "topic": "Beskrive bilder", "tags": ["nasjonaldag", "folk", "byen"] },
+  "blocks": [
+    {
+      "kind": "image",
+      "src": "assets/17mai.png",
+      "alt": "Et tog med folk og musikk på 17. mai",
+      "caption": "17. mai i byen"
+    },
+    {
+      "kind": "lines",
+      "title": "Beskrivelse",
+      "items": [
+        { "no":"Det er mange mennesker i byen.","pron":"DET er MAN-ge MEN-nes-ker i BY-en.","en":"There are many people in the city." },
+        { "no":"En jente sitter på skuldrene til faren sin.","pron":"En JEN-te SIT-ter på SKUL-dre-ne til FA-ren sin.","en":"A girl is sitting on her father's shoulders." },
+        { "no":"Hun holder et norsk flagg.","pron":"HUN HOL-der et NORSK FLAGG.","en":"She is holding a Norwegian flag." },
+        { "no":"Et korps spiller musikk i gaten.","pron":"Et KORPS SPIL-ler MU-sikk i GA-ten.","en":"A marching band is playing music in the street." },
+        { "no":"En gutt spiser is foran kafeen.","pron":"En GUTT SPI-ser IS FO-ran KA-fe-en.","en":"A boy is eating ice cream in front of the café." },
+        { "no":"To barn danser på fortauet.","pron":"TO BARN DAN-ser på FOR-ta-u-et.","en":"Two children are dancing on the sidewalk." },
+        { "no":"En gammel dame går ved siden av en mann.","pron":"En GAM-mel DA-me GÅR ved SI-den av en MANN.","en":"An old woman is walking next to a man." },
+        { "no":"En jente kjøper is i isbaren.","pron":"En JEN-te KJØ-per IS i IS-baren.","en":"A girl is buying ice cream at the ice cream shop." },
+        { "no":"En katt leker på bakken.","pron":"En KATT LE-ker på BAK-ken.","en":"A cat is playing on the ground." }
+      ]
+    },
+    {
+      "kind": "qa_list",
+      "title": "Spørsmål og svar",
+      "items": [
+        { "noQ":"Hva gjør jenta på skuldrene?","pronQ":"Hva GJØR JEN-ta på SKUL-dre-ne?","enQ":"What is the girl on the shoulders doing?","noA":"Hun vifter med et flagg.","pronA":"Hun VIF-ter med et FLAGG.","enA":"She is waving a flag." },
+        { "noQ":"Hvor er gutten som spiser is?","pronQ":"Hvor er GUT-ten som SPI-ser IS?","enQ":"Where is the boy eating ice cream?","noA":"Han står foran kafeen.","pronA":"Han STÅR FO-ran KA-fe-en.","enA":"He is standing in front of the café." },
+        { "noQ":"Hva gjør barna på fortauet?","pronQ":"Hva GJØR BAR-na på FOR-ta-u-et?","enQ":"What are the children on the sidewalk doing?","noA":"De danser.","pronA":"De DAN-ser.","enA":"They are dancing." },
+        { "noQ":"Hva gjør korpset i gaten?","pronQ":"Hva GJØR KORP-set i GA-ten?","enQ":"What is the band doing in the street?","noA":"De spiller musikk.","pronA":"De SPIL-ler MU-sikk.","enA":"They are playing music." },
+        { "noQ":"Hva kjøper jenta i isbaren?","pronQ":"Hva KJØ-per JEN-ta i IS-baren?","enQ":"What is the girl buying in the ice cream shop?","noA":"Hun kjøper is. Hva med deg?","pronA":"Hun KJØ-per IS. Hva med DEG?","enA":"She is buying ice cream. What about you?" }
+      ]
+    },
+    {
+      "kind": "mono",
+      "title": "Styrt monolog",
+      "items": [
+        {
+          "no":"Beskriv bildet",
+          "pron":"Be-SKRIV BIL-det",
+          "en":"Describe the picture",
+          "model":[
+            { "no":"Jeg ser mange mennesker i byen.","pron":"Jeg SER MAN-ge MEN-nes-ker i BY-en.","en":"I see many people in the city." },
+            { "no":"Et korps går i gaten og spiller musikk.","pron":"Et KORPS GÅR i GA-ten og SPIL-ler MU-sikk.","en":"A band is walking in the street and playing music." },
+            { "no":"En jente sitter på skuldrene til faren sin og holder et flagg.","pron":"En JEN-te SIT-ter på SKUL-dre-ne til FA-ren sin og HOL-der et FLAGG.","en":"A girl is sitting on her father's shoulders and holding a flag." },
+            { "no":"Mange barn vifter med flagg.","pron":"MAN-ge BARN VIF-ter med FLAGG.","en":"Many children are waving flags." },
+            { "no":"Noen barn danser på fortauet.","pron":"NO-en BARN DAN-ser på FOR-ta-u-et.","en":"Some children are dancing on the sidewalk." },
+            { "no":"En gutt spiser is foran kafeen.","pron":"En GUTT SPI-ser IS FO-ran KA-fe-en.","en":"A boy is eating ice cream in front of the café." },
+            { "no":"En gammel dame holder en mann i hånden.","pron":"En GAM-mel DA-me HOL-der en MANN i HÅN-den.","en":"An old woman is holding a man's hand." },
+            { "no":"Jeg ser en jente som kjøper is i isbaren.","pron":"Jeg SER en JEN-te som KJØ-per IS i IS-baren.","en":"I see a girl who is buying ice cream in the ice cream shop." },
+            { "no":"Det er fest i byen.","pron":"DET er FEST i BY-en.","en":"There is a celebration in the city." }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "verbs_table",
+      "title": "Verb",
+      "verbs": [
+        { "inf":"å spise","inf_pron":"å SPI-se","pres":"spiser","pres_pron":"SPI-ser","pret":"spiste","pret_pron":"SPIS-te","perf":"har spist","perf_pron":"har SPIST","fut":"skal spise","fut_pron":"skal SPI-se","notes":"vanlig verb" },
+        { "inf":"å gå","inf_pron":"å GÅ","pres":"går","pres_pron":"GÅR","pret":"gikk","pret_pron":"GIKK","perf":"har gått","perf_pron":"har GÅTT","fut":"skal gå","fut_pron":"skal GÅ","notes":"⚠ uregelrett" }
+      ]
+    },
+    {
+      "kind": "fill_list",
+      "title": "Diktat",
+      "items": [
+        { "no":"Gutten ___ is foran kafeen.","pron":"GUT-ten ___ IS FO-ran KA-fe-en.","en":"The boy ___ ice cream in front of the café.","ans":"spiser" },
+        { "no":"I går ___ vi pizza.","pron":"I GÅR ___ vi PIT-sa.","en":"Yesterday we ___ pizza.","ans":"spiste" },
+        { "no":"De har ___ middag sammen.","pron":"De har ___ MID-dag SAM-men.","en":"They have ___ dinner together.","ans":"spist" },
+        { "no":"Han ___ hjem fra skolen nå.","pron":"Han ___ HJEM fra SKO-len nå.","en":"He ___ home from school now.","ans":"går" },
+        { "no":"I går ___ jeg til butikken.","pron":"I GÅR ___ jeg til BU-tik-ken.","en":"Yesterday I ___ to the shop.","ans":"gikk" },
+        { "no":"Hun har ___ langt i fjellet.","pron":"Hun har ___ LANGT i FJEL-let.","en":"She has ___ far in the mountain.","ans":"gått" },
+        { "no":"Vi ___ spise middag snart.","pron":"Vi ___ SPI-se MID-dag snart.","en":"We ___ eat dinner soon.","ans":"skal" },
+        { "no":"Barna ___ spise kake på festen.","pron":"BAR-na ___ SPI-se KA-ke på FEST-en.","en":"The children ___ eat cake at the party.","ans":"skal" }
+      ]
+    }
+  ]
+}

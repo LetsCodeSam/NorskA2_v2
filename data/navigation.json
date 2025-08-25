@@ -1,0 +1,37 @@
+{
+"tree": [
+{ "alias": "nav.home", "route": "#home", "type": "route", "children": [
+
+
+{ "alias": "nav.home.listening", "type": "group", "children": [
+{ "alias": "nav.home.listening.morning", "type": "dataset", "path": "./data/demo/demo_listening.json" },
+{ "alias": "nav.home.listening.travel", "type": "dataset", "path": "./data/demo/demo_travel.json" }
+] },
+
+
+
+{ "alias": "nav.home.describe", "type": "group", "children": [
+{ "alias": "nav.home.describe.winter", "type": "dataset", "label": "Park Scene", "emoji": "🌳", "path": "/data/demo/demo_describe_park_monologue.json" },  
+{ "alias": "nav.home.describe.park", "type": "group", "children": [
+{ "alias": "nav.home.describe.park.monologue", "type": "dataset", "path": "./data/demo/demo_describe_park_monologue.json" },
+{ "alias": "nav.home.describe.park.exercise", "type": "dataset", "path": "./data/demo/demo_describe_park_exercise.json" }
+] },
+{ "alias": "nav.home.describe.school", "type": "group", "children": [
+{ "alias": "nav.home.describe.school.monologue", "type": "dataset", "path": "./data/demo/demo_describe_school_monologue.json" }
+] }
+] },
+
+
+{ "alias": "nav.home.speak", "type": "group", "children": [
+{ "alias": "nav.home.speak.monologue", "type": "dataset", "path": "./data/demo/demo_monologue.json" },
+{ "alias": "nav.home.speak.dialogue", "type": "dataset", "path": "./data/demo/demo_dialogue.json" }
+] },
+
+
+{ "alias": "nav.home.verbs", "type": "group", "children": [
+{ "alias": "nav.home.verbs.common", "type": "dataset", "path": "./data/demo/demo_verbs.json" },
+{ "alias": "nav.home.verbs.irregular", "type": "dataset", "path": "./data/demo/demo_irregular_verbs.json" }
+] }
+] }
+]
+}
