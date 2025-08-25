@@ -1,6 +1,4 @@
-// File: sw.js (single-source nav)
-// Basic service worker for Norsk A2 PWA
-
+// File: sw.js (single-source nav; fixed icon paths)
 const CACHE_NAME = 'norsk-a2-pwa-v1';
 const CORE_ASSETS = [
   './',
@@ -10,10 +8,10 @@ const CORE_ASSETS = [
   './learn.js',
   './offline.html',
   './manifest.webmanifest',
-  './icons/icon-192.png',
-  './icons/icon-512.png',
-  './icons/favicon.svg',
-  './data/navigation.json' // single-source navigation
+  './assets/icons/icon-192.png',
+  './assets/icons/icon-512.png',
+  './assets/icons/favicon.svg',
+  './data/navigation.json'
 ];
 
 self.addEventListener('install', evt => {
