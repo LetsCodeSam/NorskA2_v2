@@ -12,10 +12,10 @@
 { "alias": "nav.home.describe.winter", "type": "dataset", "label": "Winter", "emoji": "🌳", "path": "/data/describe/mai17.json" },  
 
 { "alias": "nav.home.describe.park", "type": "group", "label": "Park Scene", "emoji": "🌳", "children": [
-{ "alias": "nav.home.describe.park.exercise", "type": "dataset", "label": "Exercise", "emoji": "🌳", "path": "/data/describe/mai17.json" }
+{ "alias": "nav.home.describe.park.exercise", "type": "dataset", "label": "Exercise", "emoji": "🌳", "path": "/data/describe/mai.json" }
 ] },
 
-{ "alias": "nav.home.describe.Mai", "type": "dataset", "label": "Mai 17", "emoji": "🌳", "path": "/data/describe/mai17.json" }
+{ "alias": "nav.home.describe.Mai", "type": "dataset", "label": "Mai 17", "emoji": "🌳", "path": "/data/describe/mai.json" }
 ] },
 
 { "alias": "nav.home.conversation", "type": "group", "label": "Conversation", "emoji": "🌳", "children": [
