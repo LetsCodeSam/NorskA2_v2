@@ -9,7 +9,7 @@
 
 
 { "alias": "nav.home.describe", "type": "group", "label": "Picture", "emoji": "🌳", "children": [
-{ "alias": "nav.home.describe.winter", "type": "dataset", "label": "Winter", "emoji": "🌳", "path": "/data/describe/mai17.json" },  
+{ "alias": "nav.home.describe.winter", "type": "dataset", "label": "Winter", "emoji": "🌳", "path": "/data/describe/mai.json" },  
 
 { "alias": "nav.home.describe.park", "type": "group", "label": "Park Scene", "emoji": "🌳", "children": [
 { "alias": "nav.home.describe.park.exercise", "type": "dataset", "label": "Exercise", "emoji": "🌳", "path": "/data/describe/mai.json" }
