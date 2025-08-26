@@ -1,0 +1,60 @@
+{
+  "title": "Min hverdag",
+  "meta": { "cefr": "A2", "topic": "Everyday life", "tags": ["daily routine", "morning", "evening", "after work"] },
+  "blocks": [
+    {
+      "kind": "lines",
+      "title": "Intro",
+      "items": [
+        { "no": "Jeg har en vanlig dag med faste rutiner.", "pron": "jæ har en VÅN-lig da med FAS-te ru-TEE-ner", "en": "I have a normal day with fixed routines." },
+        { "no": "Om morgenen står jeg opp, spiser frokost og går til jobb.", "pron": "om MÅR-ge-nen står jæ opp, SPEE-ser FRO-kost og går til jobb", "en": "In the morning I get up, eat breakfast and go to work." },
+        { "no": "Om kvelden slapper jeg av eller møter venner.", "pron": "om KVE-len SHLAP-per jæ av EL-ler MØ-ter VEN-ner", "en": "In the evening I relax or meet friends." }
+      ]
+    },
+    {
+      "kind": "qa_list",
+      "title": "Q & A",
+      "items": [
+        { "noQ": "Hva gjør du på en vanlig dag?", "pronQ": "va jør du på en VÅN-lig da?", "enQ": "What do you do on a normal day?", "noA": "Jeg går på jobb, og etter jobb lager jeg middag. Hva med deg?", "pronA": "jæ går på jobb, og ET-ter jobb LA-ger jæ MID-dag. va med dæ?", "enA": "I go to work, and after work I cook dinner. What about you?" },
+        { "noQ": "Hva gjør du om morgenen?", "pronQ": "va jør du om MÅR-ge-nen?", "enQ": "What do you do in the morning?", "noA": "Jeg står opp klokka sju og spiser frokost.", "pronA": "jæ står opp KLO-ka sju og SPEE-ser FRO-kost", "enA": "I get up at seven o’clock and eat breakfast." },
+        { "noQ": "Hva gjør du om kvelden?", "pronQ": "va jør du om KVE-len?", "enQ": "What do you do in the evening?", "noA": "Jeg ser på TV eller leser en bok. Og du?", "pronA": "jæ ser på TE-ve EL-ler LE-ser en bok. og du?", "enA": "I watch TV or read a book. And you?" },
+        { "noQ": "Hva liker du å gjøre etter jobb eller skole?", "pronQ": "va LEE-ker du å JØ-re ET-ter jobb EL-ler SKO-le?", "enQ": "What do you like to do after work or school?", "noA": "Jeg liker å gå på trening. Hva med deg?", "pronA": "jæ LEE-ker å gå på TRE-ning. va med dæ?", "enA": "I like to go to the gym. What about you?" },
+        { "noQ": "Når legger du deg?", "pronQ": "når LEGG-er du dæ?", "enQ": "When do you go to bed?", "noA": "Jeg legger meg klokka ti.", "pronA": "jæ LEGG-er mæ KLO-ka ti", "enA": "I go to bed at ten o’clock." }
+      ]
+    },
+    {
+      "kind": "mono",
+      "title": "Styrt monolog",
+      "items": [
+        {
+          "no": "Snakk om din hverdag.",
+          "pron": "snakk om din VÆR-dag",
+          "en": "Talk about your everyday life.",
+          "model": [
+            { "no": "Jeg står opp klokka sju.", "pron": "jæ står opp KLO-ka sju", "en": "I get up at seven o’clock." },
+            { "no": "Jeg spiser frokost og drikker kaffe.", "pron": "jæ SPEE-ser FRO-kost og DRIK-ker KAF-fe", "en": "I eat breakfast and drink coffee." },
+            { "no": "Jeg går til jobb eller tar bussen.", "pron": "jæ går til jobb EL-ler tar BUS-sen", "en": "I walk to work or take the bus." },
+            { "no": "På jobb jobber jeg med kolleger.", "pron": "på jobb JÅB-ber jæ med ko-LEE-ger", "en": "At work I work with colleagues." },
+            { "no": "Etter jobb handler jeg mat.", "pron": "ET-ter jobb HAND-ler jæ mat", "en": "After work I shop for food." },
+            { "no": "Om kvelden lager jeg middag og spiser med familien.", "pron": "om KVE-len LA-ger jæ MID-dag og SPEE-ser med fa-MI-ljen", "en": "In the evening I make dinner and eat with my family." },
+            { "no": "Etter middag ser jeg på TV.", "pron": "ET-ter MID-dag ser jæ på TE-ve", "en": "After dinner I watch TV." },
+            { "no": "Noen ganger møter jeg venner.", "pron": "NO-en GANG-er MØ-ter jæ VEN-ner", "en": "Sometimes I meet friends." },
+            { "no": "Jeg legger meg klokka ti eller elleve.", "pron": "jæ LEGG-er mæ KLO-ka ti EL-ler el-LE-ve", "en": "I go to bed at ten or eleven o’clock." },
+            { "no": "Neste dag gjør jeg det samme igjen.", "pron": "NES-te dag jør jæ de SAM-me i-JEN", "en": "The next day I do the same again." }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "verbs_table",
+      "title": "Verb",
+      "verbs": [
+        { "inf": "å stå opp", "inf_pron": "å stå opp", "inf_en": "to get up", "pres": "står opp", "pres_pron": "står opp", "pres_en": "gets up", "pret": "stod opp", "pret_pron": "stod opp", "pret_en": "got up", "perf": "har stått opp", "perf_pron": "har stått opp", "perf_en": "has gotten up", "fut": "skal stå opp", "fut_pron": "skal stå opp", "fut_en": "will get up", "notes": "" },
+        { "inf": "å spise", "inf_pron": "å SPEE-se", "inf_en": "to eat", "pres": "spiser", "pres_pron": "SPEE-ser", "pres_en": "eats", "pret": "spiste", "pret_pron": "SPIS-te", "pret_en": "ate", "perf": "har spist", "perf_pron": "har spist", "perf_en": "has eaten", "fut": "skal spise", "fut_pron": "skal SPEE-se", "fut_en": "will eat", "notes": "" },
+        { "inf": "å gå", "inf_pron": "å gå", "inf_en": "to walk/go", "pres": "går", "pres_pron": "går", "pres_en": "walks/goes", "pret": "gikk", "pret_pron": "jikk", "pret_en": "went", "perf": "har gått", "perf_pron": "har gått", "perf_en": "has gone", "fut": "skal gå", "fut_pron": "skal gå", "fut_en": "will go", "notes": "⚠ irregular" },
+        { "inf": "å møte", "inf_pron": "å MØ-te", "inf_en": "to meet", "pres": "møter", "pres_pron": "MØ-ter", "pres_en": "meets", "pret": "møtte", "pret_pron": "MØT-te", "pret_en": "met", "perf": "har møtt", "perf_pron": "har møtt", "perf_en": "has met", "fut": "skal møte", "fut_pron": "skal MØ-te", "fut_en": "will meet", "notes": "" },
+        { "inf": "å legge seg", "inf_pron": "å LEG-ge sæj", "inf_en": "to go to bed", "pres": "legger seg", "pres_pron": "LEG-ger sæj", "pres_en": "goes to bed", "pret": "la seg", "pret_pron": "la sæj", "pret_en": "went to bed", "perf": "har lagt seg", "perf_pron": "har lagt sæj", "perf_en": "has gone to bed", "fut": "skal legge seg", "fut_pron": "skal LEG-ge sæj", "fut_en": "will go to bed", "notes": "⚠ reflexive" }
+      ]
+    }
+  ]
+}

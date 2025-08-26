@@ -1,0 +1,60 @@
+{
+  "title": "På skolen",
+  "meta": { "cefr": "A2", "topic": "School", "tags": ["education", "subjects", "children"] },
+  "blocks": [
+    {
+      "kind": "lines",
+      "title": "Intro",
+      "items": [
+        { "no": "En god skole er et sted der barna lærer og trives.", "pron": "en go SKO-le er et sted der BAR-na LÆR-er og TREE-ves", "en": "A good school is a place where children learn and thrive." },
+        { "no": "Det er viktig at lærerne er snille og flinke.", "pron": "de er VIK-tig at LÆR-er-ne er SNIL-le og FLIN-ke", "en": "It is important that the teachers are kind and skilled." },
+        { "no": "Elevene lærer fag, men også å være sammen.", "pron": "e-LE-ve-ne LÆR-er fag, men ÅG-så å VÆ-re SAM-men", "en": "The pupils learn subjects, but also how to be together." }
+      ]
+    },
+    {
+      "kind": "qa_list",
+      "title": "Q & A",
+      "items": [
+        { "noQ": "Hva er en god skole?", "pronQ": "va er en go SKO-le?", "enQ": "What is a good school?", "noA": "En god skole har gode lærere og glade elever. Hva synes du?", "pronA": "en go SKO-le har GO-de LÆR-er-e og GLA-de e-LE-ver. va SYY-nes du?", "enA": "A good school has good teachers and happy pupils. What do you think?" },
+        { "noQ": "Hva er viktig for barn å lære på skolen?", "pronQ": "va er VIK-tig for barn å LÆ-re på SKO-len?", "enQ": "What do you think is important for children to learn in school?", "noA": "Det er viktig å lære å lese, skrive og regne. Og du?", "pronA": "de er VIK-tig å LÆ-re å LE-se, SKRI-ve og REG-ne. og du?", "enA": "It is important to learn to read, write and do math. And you?" },
+        { "noQ": "Hva likte du med skolen da du var barn?", "pronQ": "va LIK-te du med SKO-len da du var barn?", "enQ": "What did you like about school when you were a child?", "noA": "Jeg likte friminutt og venner.", "pronA": "jæ LIK-te FRI-mi-nutt og VEN-ner", "enA": "I liked recess and friends." },
+        { "noQ": "Har du et favorittfag?", "pronQ": "har du et fa-vo-RITT-fag?", "enQ": "Do you have a favorite subject?", "noA": "Ja, jeg liker norsk best.", "pronA": "ja, jæ LEE-ker norsk best", "enA": "Yes, I like Norwegian best." },
+        { "noQ": "Hva lærer elevene i tillegg til fag?", "pronQ": "va LÆR-er e-LE-ve-ne i TI-leeg til fag?", "enQ": "What do pupils learn in addition to subjects?", "noA": "De lærer å samarbeide og respektere andre.", "pronA": "de LÆR-er å SAM-ar-bai-de og res-pek-TE-re AN-dre", "enA": "They learn to cooperate and respect others." }
+      ]
+    },
+    {
+      "kind": "mono",
+      "title": "Styrt monolog",
+      "items": [
+        {
+          "no": "Snakk om skolen.",
+          "pron": "snakk om SKO-len",
+          "en": "Talk about school.",
+          "model": [
+            { "no": "En god skole har flinke lærere.", "pron": "en go SKO-le har FLIN-ke LÆR-er-e", "en": "A good school has skilled teachers." },
+            { "no": "Barna lærer å lese, skrive og regne.", "pron": "BAR-na LÆR-er å LE-se, SKRI-ve og REG-ne", "en": "The children learn to read, write and do math." },
+            { "no": "Jeg likte best å være med venner på skolen.", "pron": "jæ LIK-te best å VÆ-re med VEN-ner på SKO-len", "en": "I liked best being with friends at school." },
+            { "no": "Friminutt var gøy.", "pron": "FRI-mi-nutt var gøy", "en": "Recess was fun." },
+            { "no": "Mitt favorittfag var engelsk.", "pron": "mitt fa-vo-RITT-fag var ENG-elsk", "en": "My favorite subject was English." },
+            { "no": "Jeg synes lærere må være snille.", "pron": "jæ SYY-nes LÆR-er-e må VÆ-re SNIL-le", "en": "I think teachers must be kind." },
+            { "no": "Elever må ha respekt for hverandre.", "pron": "e-LE-ver må ha res-PEKT for ve-RAN-dre", "en": "Pupils must respect each other." },
+            { "no": "En god skole hjelper barna å utvikle seg.", "pron": "en go SKO-le JEL-per BAR-na å UT-vik-le sæj", "en": "A good school helps children to develop." },
+            { "no": "På skolen lærer vi også å samarbeide.", "pron": "på SKO-len LÆR-er vi ÅG-så å SAM-ar-bai-de", "en": "At school we also learn to cooperate." },
+            { "no": "Skolen er viktig for livet.", "pron": "SKO-len er VIK-tig for LEE-ve", "en": "School is important for life." }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "verbs_table",
+      "title": "Verb",
+      "verbs": [
+        { "inf": "å lære", "inf_pron": "å LÆ-re", "inf_en": "to learn", "pres": "lærer", "pres_pron": "LÆR-er", "pres_en": "learns", "pret": "lærte", "pret_pron": "LÆR-te", "pret_en": "learned", "perf": "har lært", "perf_pron": "har LÆRT", "perf_en": "has learned", "fut": "skal lære", "fut_pron": "skal LÆ-re", "fut_en": "will learn", "notes": "" },
+        { "inf": "å lese", "inf_pron": "å LE-se", "inf_en": "to read", "pres": "leser", "pres_pron": "LE-ser", "pres_en": "reads", "pret": "leste", "pret_pron": "LES-te", "pret_en": "read (past)", "perf": "har lest", "perf_pron": "har LEST", "perf_en": "has read", "fut": "skal lese", "fut_pron": "skal LE-se", "fut_en": "will read", "notes": "" },
+        { "inf": "å skrive", "inf_pron": "å SKRI-ve", "inf_en": "to write", "pres": "skriver", "pres_pron": "SKRI-ver", "pres_en": "writes", "pret": "skrev", "pret_pron": "skrev", "pret_en": "wrote", "perf": "har skrevet", "perf_pron": "har SKREV-et", "perf_en": "has written", "fut": "skal skrive", "fut_pron": "skal SKRI-ve", "fut_en": "will write", "notes": "⚠ irregular" },
+        { "inf": "å regne", "inf_pron": "å REG-ne", "inf_en": "to calculate/do math", "pres": "regner", "pres_pron": "REG-ner", "pres_en": "does math", "pret": "regnet", "pret_pron": "REG-net", "pret_en": "did math", "perf": "har regnet", "perf_pron": "har REG-net", "perf_en": "has done math", "fut": "skal regne", "fut_pron": "skal REG-ne", "fut_en": "will do math", "notes": "" },
+        { "inf": "å samarbeide", "inf_pron": "å SAM-ar-bai-de", "inf_en": "to cooperate", "pres": "samarbeider", "pres_pron": "SAM-ar-bai-der", "pres_en": "cooperates", "pret": "samarbeidet", "pret_pron": "SAM-ar-bai-det", "pret_en": "cooperated", "perf": "har samarbeidet", "perf_pron": "har SAM-ar-bai-det", "perf_en": "has cooperated", "fut": "skal samarbeide", "fut_pron": "skal SAM-ar-bai-de", "fut_en": "will cooperate", "notes": "" }
+      ]
+    }
+  ]
+}

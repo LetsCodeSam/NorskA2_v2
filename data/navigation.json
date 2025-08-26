@@ -1,37 +1,28 @@
 {
 "tree": [
-{ "alias": "nav.home", "route": "#home", "type": "route", "children": [
+{ "alias": "nav.home", "route": "#home", "type": "route", "label": "Home", "emoji": "🌳", "children": [
 
 
-{ "alias": "nav.home.listening", "type": "group", "children": [
-{ "alias": "nav.home.listening.morning", "type": "dataset", "path": "./data/demo/demo_listening.json" },
-{ "alias": "nav.home.listening.travel", "type": "dataset", "path": "./data/demo/demo_travel.json" }
+{ "alias": "nav.home.listening", "type": "group", "label": "Listening", "emoji": "🌳", "children": [
+{ "alias": "nav.home.listening.normalday", "type": "dataset", "label": "Normal Day", "emoji": "🌳", "path": "./data/listening/normalday.json" }
 ] },
 
 
+{ "alias": "nav.home.describe", "type": "group", "label": "Picture", "emoji": "🌳", "children": [
+{ "alias": "nav.home.describe.winter", "type": "dataset", "label": "Winter", "emoji": "🌳", "path": "/data/describe/mai17.json" },  
 
-{ "alias": "nav.home.describe", "type": "group", "children": [
-{ "alias": "nav.home.describe.winter", "type": "dataset", "label": "Park Scene", "emoji": "🌳", "path": "/data/demo/demo_describe_park_monologue.json" },  
-{ "alias": "nav.home.describe.park", "type": "group", "children": [
-{ "alias": "nav.home.describe.park.monologue", "type": "dataset", "path": "./data/demo/demo_describe_park_monologue.json" },
-{ "alias": "nav.home.describe.park.exercise", "type": "dataset", "path": "./data/demo/demo_describe_park_exercise.json" }
+{ "alias": "nav.home.describe.park", "type": "group", "label": "Park Scene", "emoji": "🌳", "children": [
+{ "alias": "nav.home.describe.park.exercise", "type": "dataset", "label": "Exercise", "emoji": "🌳", "path": "/data/describe/mai17.json" }
 ] },
-{ "alias": "nav.home.describe.school", "type": "group", "children": [
-{ "alias": "nav.home.describe.school.monologue", "type": "dataset", "path": "./data/demo/demo_describe_school_monologue.json" }
+
+{ "alias": "nav.home.describe.Mai", "type": "dataset", "label": "Mai 17", "emoji": "🌳", "path": "/data/describe/mai17.json" }
+] },
+
+{ "alias": "nav.home.conversation", "type": "group", "label": "Conversation", "emoji": "🌳", "children": [
+{ "alias": "nav.home.conversation.School", "type": "dataset", "label": "School", "emoji": "🌳", "path": "./data/conversation/school.json" }
 ] }
-] },
 
 
-{ "alias": "nav.home.speak", "type": "group", "children": [
-{ "alias": "nav.home.speak.monologue", "type": "dataset", "path": "./data/demo/demo_monologue.json" },
-{ "alias": "nav.home.speak.dialogue", "type": "dataset", "path": "./data/demo/demo_dialogue.json" }
-] },
-
-
-{ "alias": "nav.home.verbs", "type": "group", "children": [
-{ "alias": "nav.home.verbs.common", "type": "dataset", "path": "./data/demo/demo_verbs.json" },
-{ "alias": "nav.home.verbs.irregular", "type": "dataset", "path": "./data/demo/demo_irregular_verbs.json" }
-] }
 ] }
 ]
 }

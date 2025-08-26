@@ -1,0 +1,68 @@
+{
+  "title": "17. mai",
+  "meta": { "cefr": "A2", "topic": "Norwegian Constitution Day", "tags": ["17. mai", "celebration", "parade"] },
+  "blocks": [
+    {
+      "kind": "image",
+      "src": "assets/describe/pic-mai17.png",
+      "alt": "Et barnetog på 17. mai med folk i parade, norske flagg og is.",
+      "caption": "Barnetog og feiring på 17. mai."
+    },
+    {
+      "kind": "lines",
+      "title": "Beskrivelse",
+      "items": [
+        { "no": "Det er 17. mai, Norges nasjonaldag.", "pron": "de er søtt-ende mai, NÅR-ges na-sjo-NAL-dag", "en": "It is May 17th, Norway’s National Day." },
+        { "no": "Vi ser et barnetog med musikkorps.", "pron": "vi ser et BAR-ne-tåg med mu-SIK-korps", "en": "We see a children’s parade with a marching band." },
+        { "no": "Folk vifter med norske flagg.", "pron": "folk VIF-ter med NÅRS-ke flag", "en": "People wave Norwegian flags." },
+        { "no": "Mange barn spiser is.", "pron": "MANG-e barn SPEE-ser is", "en": "Many children eat ice cream." },
+        { "no": "Alle er glade og feirer.", "pron": "AL-le er GLA-de og FÆI-rer", "en": "Everyone is happy and celebrating." }
+      ]
+    },
+    {
+      "kind": "qa_list",
+      "title": "Spørsmål og svar",
+      "items": [
+        { "noQ": "Hva skjer på bildet?", "pronQ": "va skjer på BIL-det?", "enQ": "What is happening in the picture?", "noA": "Det er et 17. mai-tog med barn og musikk.", "pronA": "de er et søtt-ende mai-tåg med barn og mu-SIKK", "enA": "It is a May 17th parade with children and music." },
+        { "noQ": "Hva holder folk i hendene?", "pronQ": "va HÅL-der folk i HEN-de-ne?", "enQ": "What are people holding in their hands?", "noA": "De holder norske flagg og is.", "pronA": "de HÅL-der NÅRS-ke flag og is", "enA": "They are holding Norwegian flags and ice cream." },
+        { "noQ": "Hva gjør barna?", "pronQ": "va jør BAR-na?", "enQ": "What are the children doing?", "noA": "Noen spiser is, noen går i toget.", "pronA": "NO-en SPEE-ser is, NO-en går i tå-ge", "enA": "Some are eating ice cream, some are walking in the parade." },
+        { "noQ": "Hva kan vi kjøpe på isbaren?", "pronQ": "va kan vi KJØ-pe på IS-bar-en?", "enQ": "What can we buy at the ice cream bar?", "noA": "Vi kan kjøpe brus, kaffe, is, vafler og pølser.", "pronA": "vi kan KJØ-pe brus, KAF-fe, is, VAF-ler og PØL-ser", "enA": "We can buy soda, coffee, ice cream, waffles and sausages." },
+        { "noQ": "Hvordan er stemningen?", "pronQ": "VOR-dan er STEM-ning-en?", "enQ": "How is the atmosphere?", "noA": "Stemningen er glad og festlig.", "pronA": "STEM-ning-en er GLA og FEST-lig", "enA": "The atmosphere is happy and festive." }
+      ]
+    },
+    {
+      "kind": "mono",
+      "title": "Styrt monolog",
+      "items": [
+        {
+          "no": "Beskriv bildet fra 17. mai.",
+          "pron": "be-SKRIV BIL-det fra søtt-ende mai",
+          "en": "Describe the picture from May 17th.",
+          "model": [
+            { "no": "Jeg ser et tog med musikanter i blå uniformer.", "pron": "jæ ser et tå-g med mu-si-KAN-ter i blå u-ni-FÅR-mer", "en": "I see a parade with musicians in blue uniforms." },
+            { "no": "Mange barn vifter med flagg.", "pron": "MANG-e barn VIF-ter med flag", "en": "Many children wave flags." },
+            { "no": "Noen barn spiser is.", "pron": "NO-en barn SPEE-ser is", "en": "Some children eat ice cream." },
+            { "no": "En jente har på seg bunad.", "pron": "en JEN-te har på sæj BU-nad", "en": "A girl is wearing a national costume." },
+            { "no": "Vi kan se en isbar som selger mat.", "pron": "vi kan se en IS-bar som SEL-ger mat", "en": "We can see an ice cream bar that sells food." },
+            { "no": "Mange voksne står og ser på toget.", "pron": "MANG-e VÅKS-ne står og ser på tå-ge", "en": "Many adults are standing and watching the parade." },
+            { "no": "Folk smiler og feirer dagen.", "pron": "folk SME-ler og FÆI-rer DA-gen", "en": "People are smiling and celebrating the day." },
+            { "no": "Det er 17. mai, Norges nasjonaldag.", "pron": "de er søtt-ende mai, NÅR-ges na-sjo-NAL-dag", "en": "It is May 17th, Norway’s National Day." },
+            { "no": "Alle er glade og feststemte.", "pron": "AL-le er GLA-de og FEST-stem-te", "en": "Everyone is happy and in a festive mood." },
+            { "no": "Jeg tror alle koser seg.", "pron": "jæ tror AL-le KO-ser sæj", "en": "I think everyone is enjoying themselves." }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "verbs_table",
+      "title": "Verb",
+      "verbs": [
+        { "inf": "å feire", "inf_pron": "å FÆI-re", "inf_en": "to celebrate", "pres": "feirer", "pres_pron": "FÆI-rer", "pres_en": "celebrates", "pret": "feiret", "pret_pron": "FÆI-ret", "pret_en": "celebrated", "perf": "har feiret", "perf_pron": "har FÆI-ret", "perf_en": "has celebrated", "fut": "skal feire", "fut_pron": "skal FÆI-re", "fut_en": "will celebrate", "notes": "" },
+        { "inf": "å spise", "inf_pron": "å SPEE-se", "inf_en": "to eat", "pres": "spiser", "pres_pron": "SPEE-ser", "pres_en": "eats", "pret": "spiste", "pret_pron": "SPIS-te", "pret_en": "ate", "perf": "har spist", "perf_pron": "har spist", "perf_en": "has eaten", "fut": "skal spise", "fut_pron": "skal SPEE-se", "fut_en": "will eat", "notes": "" },
+        { "inf": "å se", "inf_pron": "å se", "inf_en": "to see/watch", "pres": "ser", "pres_pron": "ser", "pres_en": "sees/watches", "pret": "så", "pret_pron": "så", "pret_en": "saw", "perf": "har sett", "perf_pron": "har sett", "perf_en": "has seen", "fut": "skal se", "fut_pron": "skal se", "fut_en": "will see", "notes": "⚠ irregular" },
+        { "inf": "å gå", "inf_pron": "å gå", "inf_en": "to walk/go", "pres": "går", "pres_pron": "går", "pres_en": "walks/goes", "pret": "gikk", "pret_pron": "jikk", "pret_en": "went", "perf": "har gått", "perf_pron": "har gått", "perf_en": "has gone", "fut": "skal gå", "fut_pron": "skal gå", "fut_en": "will go", "notes": "⚠ irregular" },
+        { "inf": "å smile", "inf_pron": "å SME-le", "inf_en": "to smile", "pres": "smiler", "pres_pron": "SME-ler", "pres_en": "smiles", "pret": "smilte", "pret_pron": "SMIL-te", "pret_en": "smiled", "perf": "har smilt", "perf_pron": "har smilt", "perf_en": "has smiled", "fut": "skal smile", "fut_pron": "skal SME-le", "fut_en": "will smile", "notes": "" }
+      ]
+    }
+  ]
+}

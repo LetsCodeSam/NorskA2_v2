@@ -1,4 +1,4 @@
-// File: app.js (single-source nav, with body scroll lock on mobile drawer)
+// File: app.js (collapse-ready + single-source nav)
 // SPA shell: routing, navigation tree, drawer behavior, PWA install, SW register
 // Navigation labels/emojis come directly from data/navigation.json (no nav_aliases.json)
 
@@ -45,28 +45,31 @@
   function setDrawerCollapsed(collapsed) {
     els.sidebar.dataset.collapsed = String(!!collapsed);
     localStorage.setItem(STORAGE_KEYS.drawerCollapsed, String(!!collapsed));
+    document.body.classList.toggle('sidebar-collapsed', !!collapsed);
   }
   function restoreDrawerState() {
-    const collapsed = localStorage.getItem(STORAGE_KEYS.drawerCollapsed);
-    setDrawerCollapsed(collapsed === 'true');
+    const collapsed = localStorage.getItem(STORAGE_KEYS.drawerCollapsed) === 'true';
+    els.sidebar.dataset.collapsed = String(collapsed);
+    document.body.classList.toggle('sidebar-collapsed', collapsed);
   }
 
   // open/close button (mobile)
-  els.drawerToggle.addEventListener('click', () => {
+  els.drawerToggle?.addEventListener('click', () => {
     const isShown = els.sidebar.classList.toggle('show');
     els.drawerToggle.setAttribute('aria-expanded', String(isShown));
     els.overlay.hidden = !isShown;
     document.body.classList.toggle('no-scroll', isShown); // lock background scroll while open
   });
   // overlay click closes drawer
-  els.overlay.addEventListener('click', () => {
+  els.overlay?.addEventListener('click', () => {
     els.sidebar.classList.remove('show');
-    els.drawerToggle.setAttribute('aria-expanded', 'false');
+    els.drawerToggle?.setAttribute('aria-expanded', 'false');
     els.overlay.hidden = true;
     document.body.classList.remove('no-scroll');
   });
 
-  els.collapseBtn.addEventListener('click', () => {
+  // collapse (desktop)
+  els.collapseBtn?.addEventListener('click', () => {
     const collapsed = els.sidebar.dataset.collapsed !== 'true';
     setDrawerCollapsed(collapsed);
   });
@@ -82,18 +85,9 @@
     }
     return r.json();
   }
-  function resolvePath(p) {
-    const tries = [p];
-    if (p.startsWith('./')) tries.push(p.slice(2));
-    return tries;
-  }
+  const resolvePath = (p) => (p.startsWith('./') ? [p, p.slice(2)] : [p]);
   async function loadJSON(path) {
-    const attempts = resolvePath(path);
-    let lastErr;
-    for (const u of attempts) {
-      try { console.debug('[loadJSON] fetching', u); return await fetchAsJSON(u); }
-      catch (e) { lastErr = e; console.warn('[loadJSON] failed', u, e); }
-    }
+    let lastErr; for (const u of resolvePath(path)) { try { return await fetchAsJSON(u); } catch (e) { lastErr = e; } }
     throw lastErr || new Error(`Could not fetch ${path}`);
   }
 
@@ -120,9 +114,9 @@
 
     const makeNode = (node) => {
       const li = document.createElement('li');
-      const div = document.createElement('div');
+      const div = document.createElement('button'); // button improves mobile click reliability
       div.className = 'node';
-      div.tabIndex = 0;
+      div.type = 'button';
       div.dataset.alias = node.alias;
       div.dataset.type = node.type;
       div.setAttribute('role', 'treeitem');
@@ -185,9 +179,7 @@
   function handleTreeKeydown(ev, el) {
     const key = ev.key;
     const isGroup = el.hasAttribute('aria-expanded');
-    const parentLi = el.parentElement;
-    if (!parentLi) return;
-
+    const parentLi = el.parentElement; if (!parentLi) return;
     if (key === 'ArrowRight') {
       if (isGroup && el.getAttribute('aria-expanded') === 'false') { el.click(); ev.preventDefault(); }
     } else if (key === 'ArrowLeft') {
@@ -308,5 +300,5 @@
     try { window.speechSynthesis.cancel(); } catch {}
     document.dispatchEvent(new CustomEvent('tts:stop-all'));
   }
-  els.stopAudioBtn.addEventListener('click', cancelAllAudio);
+  els.stopAudioBtn?.addEventListener('click', cancelAllAudio);
 })();
