@@ -1,118 +1,79 @@
 <!doctype html>
-<html lang="en">
+<html lang="nb-NO">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#0ea5e9" />
+  <meta name="description" content="Norsk A2 PWA – Lær norsk (A2) med lytteøvelser, ordforråd og samtaler. Fungerer offline." />
   <title>Norsk A2 PWA</title>
+
+  <!-- PWA manifest & icons -->
   <link rel="manifest" href="./manifest.webmanifest" />
-  <link rel="icon" href="./icons/favicon.svg" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="./icons/icon-192.png" />
+  <link rel="icon" href="./assets/icons/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="./assets/icons/icon-192.png" />
+
+  <!-- Styles (light theme + responsive sidebar/drawer) -->
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-  <header class="topbar" role="banner">
-    <button id="drawerToggle" class="icon-btn" aria-label="Toggle navigation drawer" aria-expanded="false" aria-controls="sidebar">☰</button>
-    <h1 class="app-title">Norsk A2 PWA</h1>
-    <div class="spacer"></div>
-    <button id="installBtn" class="btn" hidden>Install</button>
-    <button id="stopAudioBtn" class="btn danger" hidden>Stop audio</button>
-  </header>
+  <a class="skip-link" href="#content">Hopp til innhold</a>
 
-  <div class="layout">
-    <aside id="sidebar" class="sidebar" aria-label="Primary" data-collapsed="false">
-      <nav id="treeNav" class="tree" role="tree" aria-label="Lesson navigation">
-        <!-- Injected by app.js from data/navigation.json & data/nav_aliases.json -->
-      </nav>
-      <footer class="sidebar-footer">
-        <button id="collapseBtn" class="icon-btn" aria-label="Collapse sidebar" title="Collapse">⟨⟨</button>
-      </footer>
-    </aside>
-
-    <main id="content" class="content" role="main">
-      <section id="view-home" class="view" data-route="#home" tabindex="-1">
-        <div class="card">
-          <h2>Velkommen 👋</h2>
-          <p class="muted">Lytt og øv på norsk med ord‑for‑ord lyd på alt innhold. Bruk menyen til venstre for å starte.</p>
-          <p><a class="btn primary" href="#home">Home</a></p>
+  <!-- Sidebar / Drawer -->
+  <aside id="sidebar" aria-label="Navigasjon">
+    <div class="sidebar-header">
+      <!-- Hamburger must have id=menuBtn; app.js will attach behavior (collapse on desktop, drawer on mobile) -->
+      <button id="menuBtn" class="icon-btn" aria-label="Meny" aria-expanded="false" aria-controls="sidebar">
+        <!-- Simple hamburger icon -->
+        <span aria-hidden="true">☰</span>
+      </button>
+      <div class="brand">
+        <span class="logo" aria-hidden="true">🇳🇴</span>
+        <div class="title-group">
+          <h1 class="app-name">Norsk A2 PWA</h1>
+          <div class="voice-info">Stemme: <span id="voiceLabel">laster…</span></div>
         </div>
-      </section>
+      </div>
+    </div>
 
-      <section id="view-learn" class="view" data-route="#learn" hidden tabindex="-1">
-        <div id="learn-meta" class="meta muted"></div>
-        <div id="learn-content" class="blocks"></div>
-      </section>
+    <nav class="sidebar-nav" id="nav" aria-label="Seksjoner">
+      <!-- Navigation tree rendered here as <button class="node">…</button> by app.js -->
+    </nav>
 
-      <noscript>
-        <div class="card">JavaScript is required to run this app.</div>
-      </noscript>
-    </main>
-  </div>
+    <div class="sidebar-footer">
+      <small>© <span id="year"></span> Norsk A2 • Offline klar</small>
+    </div>
+  </aside>
 
-  <!-- Mobile overlay for slide-in drawer -->
-  <div id="overlay" class="overlay" hidden></div>
+  <!-- Page overlay for mobile drawer -->
+  <div id="overlay" aria-hidden="true"></div>
 
-  <script src="./app.js" defer></script>
-  <script src="./learn.js" defer></script>
-</body>
-</html>
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#0ea5e9" />
-  <title>Norsk A2 PWA</title>
-  <link rel="manifest" href="./manifest.webmanifest" />
-  <link rel="icon" href="./assets/icons/favicon.svg" />
-  <link rel="apple-touch-icon" href="./icons/icon-192.png" />
-  <link rel="stylesheet" href="./styles.css" />
-</head>
-<body>
-  <header class="topbar" role="banner">
-    <button id="drawerToggle" class="icon-btn" aria-label="Toggle navigation drawer" aria-expanded="false" aria-controls="sidebar">☰</button>
-    <h1 class="app-title">Norsk A2 PWA</h1>
-    <div class="spacer"></div>
-    <button id="installBtn" class="btn" hidden>Install</button>
-    <button id="stopAudioBtn" class="btn danger" hidden>Stop audio</button>
-  </header>
+  <!-- Main content -->
+  <main id="content" tabindex="-1">
+    <!-- Hash routes (#home, #learn, etc.) get rendered here by app.js/learn.js -->
+    <section id="routeContainer" class="route-container" aria-live="polite" aria-busy="false">
+      <div class="welcome">
+        <h2>Velkommen!</h2>
+        <p>
+          Denne appen hjelper deg å øve på norsk A2 — lytte, ord og samtaler. 
+          Bruk menyen til venstre (eller øverst på mobil) for å starte.
+        </p>
+        <ul>
+          <li>🔊 Alle norske ord og setninger kan spilles av i tre hastigheter.</li>
+          <li>📦 Fungerer offline etter første besøk (PWA).</li>
+          <li>🧭 Fleksibel navigasjon med flere nivåer.</li>
+        </ul>
+      </div>
+    </section>
 
-  <div class="layout">
-    <aside id="sidebar" class="sidebar" aria-label="Primary" data-collapsed="false">
-      <nav id="treeNav" class="tree" role="tree" aria-label="Lesson navigation">
-        <!-- Navigation tree is injected by app.js from ./data/navigation.json & ./data/nav_aliases.json -->
-      </nav>
-      <footer class="sidebar-footer">
-        <button id="collapseBtn" class="icon-btn" aria-label="Collapse sidebar" title="Collapse">⟨⟨</button>
-      </footer>
-    </aside>
+    <noscript>
+      <div class="noscript">
+        For å bruke denne appen må JavaScript være aktivert.
+      </div>
+    </noscript>
+  </main>
 
-    <main id="content" class="content" role="main">
-      <section id="view-home" class="view" data-route="#home" tabindex="-1">
-        <div class="card">
-          <h2>Velkommen 👋</h2>
-          <p class="muted">Lytt og øv på norsk med ord‑for‑ord lyd på alt innhold. Bruk menyen til venstre for å starte.</p>
-          <p><a class="btn primary" href="#learn">Gå til Learn</a></p>
-        </div>
-      </section>
-
-      <section id="view-learn" class="view" data-route="#learn" hidden tabindex="-1">
-        <div id="learn-meta" class="meta muted"></div>
-        <div id="learn-content" class="blocks"></div>
-      </section>
-
-      <noscript>
-        <div class="card">
-          JavaScript is required to run this app.
-        </div>
-      </noscript>
-    </main>
-  </div>
-
-  <!-- Mobile overlay for slide-in drawer -->
-  <div id="overlay" class="overlay" hidden></div>
-
-  <script src="./app.js" defer></script>
-  <script src="./learn.js" defer></script>
+  <!-- App scripts (Vanilla JS only) -->
+  <script defer src="./app.js"></script>
+  <script defer src="./learn.js"></script>
 </body>
 </html>
